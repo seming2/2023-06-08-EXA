@@ -1,0 +1,38 @@
+h1{
+    /* 개발자 도구를 이용해서 원하는 위치로 잡자! */
+    text-align: center;
+    margin-top: 230px; /* (top) 위에서 230픽셀 만큼 여백을 만든다.  */
+    font-size: 90px;   /* 글씨 크기의 사이즈는 90픽셀이다. */
+}
+h1 span:nth-child(1){
+    color: #4285f4;
+    /* 개발자도구 이용해서 색상코드 찾기 (내가 알려줌) */
+}
+h1 span:nth-child(2){
+    color: #ea4335;
+}
+h1 span:nth-child(3){
+    color: #fbbc05;
+}
+h1 span:nth-child(4){
+    color: #4285f4;
+}
+h1 span:nth-child(5){
+    color: #34a853;
+}
+h1 span:nth-child(6){
+    color: #ea4335;
+}
+input{
+    border-radius: 500px;
+}
+input .search_bar{
+    border-radius: 500px;
+
+}
+.search_bar{
+    width: 500px;
+}
+.btn{
+    display: none;
+}

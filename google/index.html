@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SeMingle</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- href = 주소를 입력 하는 곳 ( 예를 들어를 해주려 했지만 집 키보드에 wㅡ (원) 를 표현하는 키가 없음. 궁금하면 물어보세영~) -->
+</head>
+<body>
+    <!-- <input> 입력하는 칸을 만드는 태그
+         <form>  정보를 전송하는 태그 // input 태그에 필수 사용 ㅇㅋ? 외워 -->
+    <h1><span>S</span><span>e</span><span>m</span><span>i</span><span>n</span><span>g</span></h1>
+    <!-- htmltagwrap의 불편함점 태그를 감싸고 싶은 영역(드래그)하고나서 Alt+w 누르고 나면 inline 요소태그가 감싸지지만
+            기본 요소인 p태그가 만들어지고 바로 span 으로 수정이 가능하다. ****하지만 커서포인트(입력이 가능한 포인트 위치)가
+            2개로 잡히므로 ESC 눌러서 기본값으로 수정 해준다.-->
+
+    <!--이 예제는 h1에 텍스트를 사용 (새로운 익스텐션 htmltagwrap 사용)
+        복습 예제는 h1 안에 img  또는 css background url 을 사용해서 넣기(가능하다면 로고 svg로 변환후 넣어보기(이건 나도 잘 모름)  -->
+
+
+    <form action="https://www.google.com/search" method="GET">
+        <div class="mx-auto mt-5 search_bar input-group mb-3">
+            <input name="q" type="text" class="form-control" placeholder="Semingle 검색 또는 URL 입력 (모르면 물어보아요)" aria-label="Recipient's username" aria-describedby="button-addon2">
+            <button class="btn btn-outline-secondary hide" type="button" id="button-addon2">Button</button>
+        </div>
+    </form>
+    <!-- input의 예제는 만드려다가 술도 먹었고 힘들어서 bootstrap을 이용함 이해바람 
+         복습시간에 다 구현/input크기, 위치, radius는 임의로 조정함 (최대한 똑같게 만듬)  -->
+</body>
+</html>
